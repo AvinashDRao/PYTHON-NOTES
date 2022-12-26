@@ -1,66 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
-a,b,c=1,"ok",2
-a
-
-
-# In[2]:
-
-
-b
-
-
-# In[5]:
-
-
-c
-
-
-# In[6]:
-
-
-b
-
-
-# In[11]:
-
-
-a,b,c=1,2,3
-print(a,b,c)
-type(b)
-
-
-# In[ ]:
-
-
-a=int(input('enter the number  '))
-if a in range(0,10):
-    print(a*100)
-if a in range (10,100):
-    print(a**5)
-if a in range(100,1000):
-    b=int(input('enter the input  '))
-    print(a+b)
-
-
-# In[ ]:
-
-
-a=int(input('enter the number  '))
-if a in range(0,10):
-    print(a*100)
-if a in range (10,100):
-    print(a**5)
-if a in range(100,1000):
-    b=int(input('enter the input  '))
-    print(a+b)
-
-
-# In[ ]:
+#BASIC NOTES OF PYTHON
+'''Python is a very popular general purpose,interpreted,interacctive object oriented & high level programming launguage.
+Developed by "Guido van Rosum" during 1985-1990.'''
 
 
 #how to check the data types
@@ -70,13 +10,18 @@ c='classes'
 print(type(a))
 print(type(b))
 print(type(c))
-#muliple assignments
+
+
+#ASSIGNING OF MULTIPLE INPUTS IN SINGLE LINE
+
 a,b,c =10,3,'abc'
 print(a)
 print(b)
 print(c)
 
-#functins of operators
+
+#BSIC OPERATORS
+
 print('the sum is: ', a+b)
 d=a/b
 print(d)
@@ -87,15 +32,16 @@ print(f)
 g=a//b     #floor division
 print(g)
 
+
 #comparision operators
+
 if a==b:
     print("equal")
 if a!=b:
     print("not equal")
 
 
-# In[ ]:
-
+#MATHEMATICAL OPERATIONS IN PYTHON
 
 def add(a,b):
     sum=a*b
@@ -110,12 +56,8 @@ def div(a,b):
     div=a/b
     print(div)
 
-if __name__=="__main__":
-    ssum=add(10,20)
-
-
-# In[ ]:
-
+    
+#LIST DATA TYPE BASICS
 
 x=[4,5,6,7,8]
 y=[8,9,10,11]
@@ -128,7 +70,9 @@ if 6 not in x:
 else:
     print("false")
 
-#updating list
+    
+#UPDATING LIST
+
 print(x[2])
 print(y[3])
 x[0]=24
@@ -162,8 +106,7 @@ l5=list3[2:6]
 print(l5)
 
 
-# In[ ]:
-
+#OBJECT ORIENTED PROGRAM CONCEPT
 
 class Employee:
     name="Ben"
@@ -175,21 +118,18 @@ emp=Employee()
 print("emp: ",emp.name,emp.desig)
 
 
-# In[ ]:
-
+#MULTIPLICATION TABLE OF A NUMBBERS
 
 a=int(input("enter  the first input  "))
 for i in range(1,11):
     table=a*i
     print(a,"x",i,"=",table)
+    
+    
+#EVEN-ODD OF A NUMBBERS
+   
+a=int(input("enter  the first input  "))  
 if a%2==0:
     print('even number')
 else:
     print('odd number')
-
-
-# In[ ]:
-
-
-
-
