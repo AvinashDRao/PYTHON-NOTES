@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 # WAP OF SINGLE DIGIT,DOUBLE DIGIT AND THREE DIGIT
 
 user_input=int(input('enter the user input-1 :  '))
@@ -16,9 +10,6 @@ if user_input in range(100,1000):
     print(user_input+user_input_02)
 
 
-# In[8]:
-
-
 # WAP OF MILEAGE OF THE BIKE
 
 initial_reading=int(input('enter the initial odometer reading :  '))
@@ -28,20 +19,16 @@ mileage=(fuel_consumption-initial_reading)/fuel_consumption
 print(f'mileage of the bike is {mileage} Kmpl')
 
 
-# In[10]:
+# WAP OF MULTIPLICATION TABLE FOR USER INPUT
 
-
-# Multiplication
 user_input=int(input('enter the number: '))
 for i in range(1,11):
     table=(user_input)*i
     print(user_input,'x',i,'=',table)
 
 
-# In[9]:
-
-
 # WAP OF EVEN_ODD_PRIME NUMBER
+
 user_input=int(input('Enter the number:  '))
 if user_input==0:
     print ('user_input is invalid number')
@@ -60,16 +47,4 @@ else:
         print('User_input is even number')
     else:
         print('User_input is odd number')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
