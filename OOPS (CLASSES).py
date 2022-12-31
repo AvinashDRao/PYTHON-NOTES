@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[16]:
-
 
 class Employee:
     def get_details(self):
@@ -18,14 +13,7 @@ emp1=Employee()
 emp2=Employee()
 emp1.get_details()
 
-
-# In[20]:
-
-
 emp1.print_info()
-
-
-# In[98]:
 
 
 class Employee:
@@ -42,21 +30,9 @@ employee1=Employee()
 employee2=Employee()
     
 
-
-# In[99]:
-
-
 employee1.name
 
-
-# In[100]:
-
-
 employee2.target(25)
-
-
-# In[101]:
-
 
 employee2.name="sairam"
 employee2.age=42
@@ -65,8 +41,6 @@ print("employee1 age is: ",employee1.age)
 print("employee2 name is: ",employee2.name)
 print("employee2 age is: ",employee2.age)
 
-
-# In[ ]:
 
 
 '''1.What is Encapsulation ?
@@ -132,26 +106,4 @@ while True:
         quit()
     else:
         print("please enter appropriate value ")
-
-
-# In[ ]:
-
-
-
-    
-    
-
-
-# In[ ]:
-
-
-
-
-
-# 
-
-# In[ ]:
-
-
-
 
